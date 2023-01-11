@@ -12,7 +12,7 @@ int main()
 	cout << "Nhap n: ";
 	cin >> n;
 	for (int i = 1; i <= n; i++)
-		S += (float)1 / i * (i + 1);
+		S += (float)1 / (i * (i + 1));
 	cout << "S" << "(" << n << "): " << S;
 	return 1;
 }
